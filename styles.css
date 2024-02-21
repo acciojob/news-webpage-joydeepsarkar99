@@ -1,1 +1,40 @@
 /*  your css code here. If applicable */
+*{
+	box-sizing:border-box;
+}
+body{
+	background-color:#f5f5f5
+}
+.header{
+	background-color:#011e29;
+	color:#f5f5f5;
+	text-align:center;
+	padding:8px;
+}
+.container{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	gap:4px;
+	text-align:center;
+	margin-top:10px;
+}
+.content-section{
+	background-color:white;
+	padding:15px;
+	border-radius:20px;
+}
+.latest-news-section{
+	width:300px;
+	height:150px;
+}
+.main-article-section{
+	width:500px;
+	height:200px;
+}
+.pictorial-news-section{
+	width:300px;
+}
+.pictorial-news-section>img{
+	width:100%;
+}
